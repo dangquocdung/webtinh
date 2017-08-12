@@ -1,0 +1,200 @@
+.dng-icon-file-text {
+	background: url("../images/icon/VBBH.png") no-repeat left top;
+	width: 17px;
+	height: 16px;
+	display: block;
+	margin-top: 3px;
+}
+
+.icon-website {
+	background: url("../images/icon/world.png") no-repeat left top;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin-top: 3px;
+}
+
+.icon-play-vid {
+	background: url("../images/icon/icon-play.png") no-repeat left top;
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin-top: 3px;
+	position: absolute;
+    top: -68px;
+    left: 66px;
+    opacity: 0;
+}
+
+/* .icon-search {
+	background: url("../img/icon/search.png") no-repeat left top;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin-top: 3px;
+	border: none;
+	outline: 0;
+} */
+
+.icon-flag-custom {
+	width: 16px;
+	height: 12px;
+	display: inline-block;
+	background-color: #000;
+}
+
+.icon-flag-ja {
+	background: url("../images/icon/japan.png");
+}
+
+.icon-flag-en {
+	background: url("../images/icon/english.png");
+}
+
+.icon-flag-vi {
+	background: url("../images/icon/vi.png") no-repeat center center;
+}
+
+.dng-icon-mail {
+	width: 19px;
+    height: 14px;
+	display: inline-block;
+	background: url("../images/icon/mail.png") no-repeat left top;
+}
+
+.dng-icon-print {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/icon/print.png") no-repeat left top;
+}
+
+.dng-icon {
+	display: inline-block;
+}
+
+.dng-icon-tin-noi-bat {
+	width: 21px;
+    height: 16px;
+    background: url("../images/icon/icons.png") no-repeat -8px -8px;
+}
+
+.dng-icon-tin-tuc-su-kien {
+	width: 21px;
+    height: 16px;
+    background: url("../images/icon/icons.png") no-repeat -60px -8px;
+}
+
+.dng-icon-thong-tin-chi-dao {
+	width: 20px;
+    height: 18px;
+    background: url("../images/icon/icons.png") no-repeat -97px -7px;
+}
+
+.dng-icon-website-don-vi {
+	width: 16px;
+    height: 16px;
+    background: url("../images/icon/icons.png") no-repeat -270px -14px;
+}
+
+.dng-icon-dot {
+	background: url('../images/icon/icons.png') no-repeat -32px -40px;
+	width: 8px;
+	height: 8px;
+    display: inline-block;
+}
+
+.dng-icon-van-ban-ban-hanh {
+	width: 17px;
+    height: 16px;
+     background: url("../images/icon/icons.png") no-repeat -131px -13px;
+}
+
+.dng-icon-thong-tin-chinh-quyen {
+	width: 15px;
+    height: 16px;
+    background: url("../images/icon/icons.png") no-repeat -353px -13px;
+}
+
+.dng-icon-thong-tin-tra-cuu {
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon/icons.png) no-repeat -325px -13px;
+}
+
+.dng-icon-pdf {
+	width: 25px;
+    height: 31px;
+    background: url(../images/icon/icons.png) no-repeat -405px  -7px;
+    display: inline-block;
+}
+
+.dng-icon-doc {
+	width: 23px;
+	height: 30px;
+    background: url(../images/icon/doc.png) no-repeat;
+    display: inline-block;
+}
+
+.dng-icon-excel {
+    width: 23px;
+	height: 30px;
+    background: url(../images/icon/excel.png) no-repeat;
+    display: inline-block;
+}
+
+.MagicScroll-horizontal .mcs-button-arrow-prev:before {
+   	content: "" !important;
+   	background: url(../images/icon/icons.png) no-repeat -192px -11px;
+   	padding-left: 10px;
+}
+
+.MagicScroll-horizontal .mcs-button-arrow-next:before {
+   	content: "" !important;
+   	background: url(../images/icon/icons.png) no-repeat -207px -12px;
+   	padding-left: 10px;
+}
+
+.dng-icon-video {
+    width: 18px;
+    height: 16px;
+    background: url(../images/icon/icons.png) no-repeat -160px -8px;
+}
+
+.dng-icon-image {
+    width: 18px;
+    height: 16px;
+    background: url(../images/icon/icons.png) no-repeat -55px -32px;
+}
+
+.dng-icon-rss {
+	background: url(../images/icon/icons.png) no-repeat -117px -32px;
+    display: inline-block;
+    width: 24px;
+    height: 23px;
+    float: left;
+    margin-top: -5px;
+}
+
+
+.dng-icon-fontsize {
+	display: inline-block;
+}
+
+.dng-icon-fontsize-small {
+	background: url(../images/icon/icons.png) no-repeat -191px -37px;
+    width: 10px;
+    height: 10px;
+}
+
+.dng-icon-fontsize-medium {
+	background: url(../images/icon/icons.png) no-repeat -169px -37px;
+    width: 13px;
+    height: 13px;
+}
+
+.dng-icon-fontsize-large {
+	background: url(../images/icon/icons.png) no-repeat -145px -37px;
+    width: 16px;
+    height: 16px;
+}
