@@ -8249,11 +8249,12 @@ header {
         width: 100%;
         padding: 5px; }
 
+.hot-news-block {
+  border-bottom: 1px solid #e1e8ee;
+  padding-bottom: 4px;
+  padding-top: 7px; }
+
 @media (max-width: 767px) {
-  header {
-    height: auto; }
-    header #carousel-example-generic .carousel-inner .item img {
-      height: auto !important; }
   .language-wrapper-mb {
     text-align: center; }
     .language-wrapper-mb .language-list {
