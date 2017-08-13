@@ -9,22 +9,31 @@
   <link rel="icon" href="./images/favicon.ico">
   @yield('title')
   <base href="{{asset('')}}">
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+
+
+
+  <!-- Danang -->
+  <link rel="stylesheet" href="./css/header-menu.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/owl.carousel.css">
+	<link rel="stylesheet" href="./css/owl.theme.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mentions.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="stylesheet" href="./assets/css/app.css">
+
   <script type="text/javascript" src="./js/jquery.min.js"></script>
   <script type="text/javascript" src="./js/bootstrap.min.js" ></script>
-  <!-- Danang -->
-  <link rel="stylesheet" type="text/css" href="./css/header-menu.css">
-  <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link rel="stylesheet" type="text/css" href="./css/mentions.css">
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
 </head>
 <body>
   @include('guest.layout.header-banner')
   @include('guest.layout.main-menu')
   @include('guest.layout.menu-mobile')
   @yield('content')
-  @include('guest.layout.footer')
+  {{-- @include('guest.layout.footer') --}}
+
+
 </body>
 </html>

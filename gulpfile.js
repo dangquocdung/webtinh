@@ -8,6 +8,6 @@ elixir(function(mix) {
        'controllers.scss'
    ], 'public/assets/css');
 
-   mix.webpack(['app.js','bootstrap.min.js']);
+  //  mix.webpack(['app.js','bootstrap.min.js']);
 
 });
