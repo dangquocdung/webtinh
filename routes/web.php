@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('guest.trang-chu');
 });
 
-Route::get('/guest/trang-chu', function () {
-    return view('guest.trang-chu');
-});
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

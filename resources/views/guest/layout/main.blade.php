@@ -17,9 +17,9 @@
   <link rel="stylesheet" href="./css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/owl.carousel.css">
 	<link rel="stylesheet" href="./css/owl.theme.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/mentions.css">
-  <link rel="stylesheet" href="./css/main.css">
+  {{-- <link rel="stylesheet" href="./css/style.css"> --}}
+  {{-- <link rel="stylesheet" href="./css/mentions.css"> --}}
+  {{-- <link rel="stylesheet" href="./css/main.css"> --}}
 
   <link rel="stylesheet" href="./assets/css/app.css">
 
