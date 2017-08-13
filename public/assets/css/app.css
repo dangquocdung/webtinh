@@ -8265,6 +8265,8 @@ header {
     margin-top: 9px;
     display: inline-block;
     float: right; }
+  .margin-mobile {
+    margin-top: 42px; }
   .navbar-toggle {
     position: relative;
     float: left;
