@@ -7,10 +7,13 @@
        <span class="icon-bar"></span>
        <span class="icon-bar"></span>
      </button>
-     <div style="width: 40px;float: left;">
+
+     {{-- <div style="width: 40px;float: left; padding-left:5px;">
          <img src="./images/logo2.png" style="height: 34px;margin-top: 6px">
-     </div>
+     </div> --}}
+
      <div class="header-menu-name-mb">
+        <img src="./images/logo2.png" style="height: 35px;">
          <span>CỔNG TTĐT TỈNH HÀ TĨNH</span>
          <a class="search-icon-mb"></a>
      </div>

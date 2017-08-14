@@ -64,6 +64,7 @@
     }
   }
   .header-menu-name-mb {
+    // background: url('../../images/logo2.png') top center no-repeat;
     color: #1D62CA;
     margin-top: 16px;
     padding-top: 6px;
@@ -74,6 +75,7 @@
     font-weight: 900;
     line-height: 35px;
     font-family: Roboto,sans-serif!important;
+    text-align: center;
     span {
         text-shadow: -1px -1px 0px #fff, 0px -1px 0px #fff, 1px -1px 0px #fff, -1px 0px 0px #fff, 1px 1px 0px #fff, -1px 1px 0px #fff, 0px 1px 0px #fff, 1px 1px 0px #fff;
       }
