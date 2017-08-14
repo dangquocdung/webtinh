@@ -139,10 +139,11 @@ ul {
 .margin-wrapper {
 	height: 41px;
 	width: 100%;
-    top: 100%;
-    left: 0;
-    background-color: #f0f6fc;
-    border-bottom: 1px solid #d7e1eb;
+  top: 100%;
+  left: 0;
+  background-color: #f0f6fc;
+  border-bottom: 1px solid #d7e1eb;
+	margin-bottom: 15px;
 }
 
 .icon-search {

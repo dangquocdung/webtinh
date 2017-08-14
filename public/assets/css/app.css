@@ -8122,19 +8122,19 @@ header {
           font-size: 12px;
           text-transform: uppercase;
           border-bottom: 1px solid #fff; }
-          #featured-slider .item .slider-item-cap .s-cat a .s-title {
-            color: #fff;
-            font-size: 18px;
-            line-height: 20px; }
-            #featured-slider .item .slider-item-cap .s-cat a .s-title:hover {
-              text-decoration: underline; }
+      #featured-slider .item .slider-item-cap .s-title {
+        color: #fff;
+        font-size: 14px;
+        line-height: 16px; }
+        #featured-slider .item .slider-item-cap .s-title:hover {
+          text-decoration: none; }
   #featured-slider .owl-controls {
     margin: 0;
-    text-align: right;
     position: absolute;
     bottom: 24px;
     right: 10px; }
     #featured-slider .owl-controls .owl-page span {
+      display: none;
       background: #fff;
       margin: 5px 3px;
       width: 10px;
@@ -8158,9 +8158,8 @@ header {
     border-radius: 0px 2px 0px 0px; }
 
 .portlet-content {
-  margin-top: 15px;
   margin-right: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-left: 0px;
   width: 100%;
   position: relative;

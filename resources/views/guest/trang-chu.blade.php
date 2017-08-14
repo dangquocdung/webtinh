@@ -13,7 +13,7 @@
               </div>
               <div class="col-md-12">
                   <div class="portlet-content">
-                      @include('guest.plugin.owl-slider')
+                      @include('guest.plugin.featured-slider')
                   </div>
               </div>
               <div class="col-md-12">
@@ -33,33 +33,28 @@
 
 
   <script>
-      $(document).ready(function() {
-          var owl = $('.owl-carousel');
-          owl.owlCarousel({
-              loop: true,
-              margin: 10,
-              autoplay: true,
-              autoplayTimeout: 1000,
-              autoplayHoverPause: true,
-              responsiveClass: true,
-              responsive: {
-                  0: {
-                      items: 2
-                  },
-                  600: {
-                      items: 4
-                  },
-                  1000: {
-                      items: 6
-                  }
-              }
-          });
-          $('.play').on('click', function() {
-              owl.trigger('play.owl.autoplay', [1000])
-          })
-          $('.stop').on('click', function() {
-              owl.trigger('stop.owl.autoplay')
-          })
-      })
-  </script>
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        600: {
+          items: 3,
+          nav: false
+        },
+        1000: {
+          items: 5,
+          nav: true,
+          loop: false,
+          margin: 20
+        }
+      }
+    })
+  })
+</script>
 @endsection
