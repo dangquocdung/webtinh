@@ -104,13 +104,6 @@
                   <div class="header-menu-triangle-wrapper hidden"><i class="header-menu-triangle"></i>
                   </div>
               </li>
-              <li class="header-menu-item">
-                  <a class="title-menu" href="http://apec2017.danang.gov.vn/web/apec" target="_blank">
-                      <span>APEC 2017</span>
-                  </a>
-                  <div class="header-menu-triangle-wrapper hidden"><i class="header-menu-triangle"></i>
-                  </div>
-              </li>
           </ul>
         </div>
       </div>

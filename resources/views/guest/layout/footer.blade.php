@@ -1,4 +1,4 @@
-<div class="dng-porlet-main-footer">
+<div class="porlet-main-footer">
     <div class="main-footer-header-wrapper">
         <div class="container">
             <ul class="main-footer-menu">
@@ -22,7 +22,7 @@
                 </li>
                 <li class="main-footer-menu-item main-footer-menu-item-right" style="float:right;">
                     <a href="http://danang.gov.vn/rss">
-                        <i class="dng-icon-rss"></i> RSS
+                        <i class="ht-icon-rss"></i> RSS
                     </a>
                 </li>
             </ul>

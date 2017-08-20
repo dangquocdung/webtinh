@@ -12,9 +12,13 @@
             <div class="row">
                   <div class="col-md-7 col-sm-7 col-xs-12">
                     <div class="main-news">
+                      <div class="">
                         <a href="#" class="main-news-title bold">
           								Thăm, hỗ trợ đồng bào tỉnh Lai Châu khắc phục thiệt hại do mưa lũ
           							</a>
+
+                      </div>
+
                         <div class="main-news-thumb-nail">
                             <a href="/web/guest/chinh-quyen/chi-tiet?id=27819&amp;_c=3">
                                 <img src="http://docs.ttdt.dsp.vn/images/image/m_laichau_1502601516903.JPG">

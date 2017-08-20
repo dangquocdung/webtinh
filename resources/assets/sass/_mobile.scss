@@ -80,4 +80,25 @@
         text-shadow: -1px -1px 0px #fff, 0px -1px 0px #fff, 1px -1px 0px #fff, -1px 0px 0px #fff, 1px 1px 0px #fff, -1px 1px 0px #fff, 0px 1px 0px #fff, 1px 1px 0px #fff;
       }
     }
+
+    .document-file-name {
+        font-size: 13px;
+        line-height: 20px;
+        color: #0083f3;
+        float: left;
+        margin-left: 0px;
+        padding-top: 5px;
+    }
+
+    .row-right{
+      float: left;
+      margin-left: -15px !important;
+    }
+
+    .liked-website {
+      .select-box {
+          margin-bottom: 8px;
+      }
+
+    }
 }

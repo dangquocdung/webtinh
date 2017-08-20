@@ -15,8 +15,9 @@
   <!-- Danang -->
   <link rel="stylesheet" href="./css/header-menu.css">
   <link rel="stylesheet" href="./css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/owl.carousel.css">
-	<link rel="stylesheet" href="./css/owl.theme.css">
+  <link href="./css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="./css/owl.transitions.css" type="text/css" rel="stylesheet" media="screen" />
+
   {{-- <link rel="stylesheet" href="./css/style.css"> --}}
   {{-- <link rel="stylesheet" href="./css/mentions.css"> --}}
   {{-- <link rel="stylesheet" href="./css/main.css"> --}}
@@ -26,13 +27,16 @@
   <script type="text/javascript" src="./js/jquery.min.js"></script>
   <script type="text/javascript" src="./js/bootstrap.min.js" ></script>
   <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+
+
 </head>
 <body>
   @include('guest.layout.header-banner')
   @include('guest.layout.main-menu')
   @include('guest.layout.menu-mobile')
   @yield('content')
-  {{-- @include('guest.layout.footer') --}}
+  @include('guest.layout.lienketwebsite')
+  @include('guest.layout.footer')
 
 
 </body>

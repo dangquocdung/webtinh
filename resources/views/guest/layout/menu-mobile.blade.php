@@ -7,11 +7,6 @@
        <span class="icon-bar"></span>
        <span class="icon-bar"></span>
      </button>
-
-     {{-- <div style="width: 40px;float: left; padding-left:5px;">
-         <img src="./images/logo2.png" style="height: 34px;margin-top: 6px">
-     </div> --}}
-
      <div class="header-menu-name-mb">
         <img src="./images/logo2.png" style="height: 35px;">
          <span>CỔNG TTĐT TỈNH HÀ TĨNH</span>
@@ -102,9 +97,6 @@
        </li>
        <li>
            <a href="http://tourism.danang.vn/" target="_blank">Du khách</a>
-       </li>
-       <li>
-           <a href="http://apec2017.danang.gov.vn/web/apec" target="_blank">APEC 2017</a>
        </li>
      </ul>
    </div><!--/.nav-collapse -->
