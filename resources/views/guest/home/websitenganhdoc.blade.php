@@ -1,12 +1,8 @@
 <div class="portlet">
     <div class="portlet-header">
         <a href="#" class="portlet-danh-muc-title">
-            <i class=" no-pd-top portlet-header-icon view11">
-                <i class="ht-icon ht-icon-website-don-vi"></i>
-    				</i>
             <h4 class="portlet-header-title no-pd-top">Website các đơn vị ngành dọc</h4>
         </a>
-        <span class="underline"></span>
     </div>
     <div class="portlet-content">
       <ul class="list-news">
@@ -42,9 +38,6 @@
               </a>
           </div>
         </li>
-
-
-
       </ul>
     </div>
 </div>

@@ -3,15 +3,15 @@
       <div class="row">
         <div class="container">
           <ul class="header-menu">
-              <li class="header-menu-item active">
-                  <a class="title-menu" href="http://danang.gov.vn/web/guest/trang-chu">
+              <li class="header-menu-item @yield('header-menu-item')">
+                  <a class="title-menu" href="/">
                       <span>Trang chủ</span>
                   </a>
                   <div class="header-menu-triangle-wrapper hidden"><i class="header-menu-triangle"></i>
                   </div>
               </li>
               <li class="header-menu-item">
-                  <a class="title-menu" href="http://danang.gov.vn/web/guest/chinh-quyen">
+                  <a class="title-menu" href="/chinh-quyen">
                       <span>Chính quyền</span>
                   </a>
                   <div class="header-menu-triangle-wrapper"><i class="header-menu-triangle"></i>
@@ -20,7 +20,7 @@
                       <div class="container pad-left-10 pad-right-10">
                           <ul class="header-menu-sub container">
                               <li class="header-menu-sub-item">
-                                  <a class="title-menu" href="http://danang.gov.vn/web/guest/gioi-thieu">Giới thiệu</a>
+                                  <a class="title-menu" href="/chinh-quyen/gioi-thieu">Giới thiệu</a>
                               </li>
                               <li class="header-menu-sub-item">
                                   <a class="title-menu" href="http://danang.gov.vn/web/guest/bo-may-to-chuc">Bộ máy tổ chức</a>
@@ -45,7 +45,7 @@
                   </div>
               </li>
               <li class="header-menu-item">
-                  <a class="title-menu" href="http://danang.gov.vn/web/guest/cong-dan">
+                  <a class="title-menu" href="/cong-dan">
                       <span>Công dân</span>
                   </a>
                   <div class="header-menu-triangle-wrapper"><i class="header-menu-triangle"></i>
@@ -70,7 +70,7 @@
                   </div>
               </li>
               <li class="header-menu-item">
-                  <a class="title-menu" href="http://danang.gov.vn/web/guest/doanh-nghiep">
+                  <a class="title-menu" href="/doanh-nghiep">
                       <span>Doanh nghiệp</span>
                   </a>
                   <div class="header-menu-triangle-wrapper"><i class="header-menu-triangle"></i>
@@ -98,7 +98,7 @@
                   </div>
               </li>
               <li class="header-menu-item">
-                  <a class="title-menu" href="http://tourism.danang.vn/" target="_blank">
+                  <a class="title-menu" href="http://dulichbien.hatinh.top/" target="_blank">
                       <span>Du khách</span>
                   </a>
                   <div class="header-menu-triangle-wrapper hidden"><i class="header-menu-triangle"></i>
@@ -108,16 +108,22 @@
         </div>
       </div>
   </div>
+
+
   <div class="margin-wrapper hidden-xs">
       <div class="container pad-left-10 pad-right-10">
           <span style="padding-top: 11px;display: block; padding-left: 15px;">
-          <span style="margin-top: -1px;display: block;float: left;margin-right: 6px;">
-            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <span style="margin-top: -1px;display: block;float: left;margin-right: 6px;">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+            </span>
+          <span class="wd-days hidden-xs ng-binding">
+            {{ Carbon\Carbon::now()->formatLocalized('Ngày %d tháng %m năm %Y | %H:%M GMT+7') }}
           </span>
-          <span class="wd-days hidden-xs ng-binding">Thứ Sáu, ngày 11 tháng 8 năm 2017 | 10:55 GMT+7</span>
           </span>
       </div>
   </div>
+
+
   {{-- <div class="header-menu-wrapper-mb hidden-lg hidden-md hidden-sm">
       <div id="btClickLeftNav" class="humbeger btn-hamburger">
           <span></span>

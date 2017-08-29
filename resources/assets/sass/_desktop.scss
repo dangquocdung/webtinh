@@ -1,3 +1,14 @@
+body {
+	background: #FFFFFF;
+	color: #333333;
+	// font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	letter-spacing: 0.5px;
+}
+
 header {
     height: 186px;
     #carousel-example-generic{
@@ -39,7 +50,7 @@ header {
                 }
                 h2{
                   color: #e81d02;
-                  font-size: 42px;
+                  font-size: 55px;
                   font-weight: bold;
                   margin: 0;
                   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
@@ -58,11 +69,9 @@ header {
         }
     }
 }
-
 .ht-icon {
     display: inline-block;
 }
-
 .ht-icon-website-don-vi {
     width: 16px;
     height: 16px;
@@ -76,7 +85,6 @@ header {
     float: left;
     margin-top: -5px;
 }
-
 .hot-news-desc {
   .news-title {
   	font-size: 14px;
@@ -84,7 +92,6 @@ header {
     text-align: center !important;
   }
 }
-
 .hot-news-block {
     border-bottom: 1px solid #e1e8ee;
     padding-bottom: 4px;
@@ -94,52 +101,27 @@ header {
     margin-top: 8px !important;
     margin-bottom: 3px !important;
 }
-/* === Slider === */
-.owl-carousel{
-    // border: 1px solid #e1e8ee;
-    margin-bottom: 8px;
-    .img-responsive {
-    	display: inline-block;
-    }
-    .owl-buttons{
-      div {
-      	background: url("../../images/sprite.png") no-repeat 0 0;
-      	font-size: 0;
-      	height: 35px;
-      	width: 35px;
-      	top: 40% !important;
-      }
-      .owl-prev {
-      	background-position: -15px -32px;
-        left: 0px;
-
-        &:hover {
-        	background-position: -15px -65px;
-        }
-      }
-
-      .owl-next {
-      	background-position: -7px -101px;
-        right: 0px;
-
-        &:hover {
-        	background-position: -7px -136px;
-        }
-      }
-
-    }
-}
-
-
 .portlet{
   width: 100%;
-  margin-top: 15px;
-
+  // margin-top: 15px;
 }
 .portlet-header{
   width: 100%;
-  border-bottom: 1px solid #e1e8ee;
-  margin-bottom: 5px;
+  text-transform: uppercase;
+  // font-weight: bold;
+  color: #fff !important;
+  line-height: 35px;
+  // margin-bottom: 10px;
+  padding: 3px 5px 1px 35px;
+  // border-bottom: 1px solid #e1e8ee;
+  // margin-bottom: 5px;
+  // background: url('/images/background/pattern_vang.svg') top left;
+  // background-color: #0070bb;
+	background-color: #eda221;
+  background-image: url('/images/background/lotus.ico'), url('/images/background/trong-dong.png');
+	background-size: 32px 32px, auto;
+  background-position: 2px 4px,right top;
+  background-repeat: no-repeat;
   a.portlet-danh-muc-title {
       text-decoration: none !important;
       display: block;
@@ -152,11 +134,19 @@ header {
       margin-bottom: -1px;
       border-radius: 0px 2px 0px 0px;
   }
+  .portlet-header-title {
+      font-size: 14px;
+      // font-weight: bold;
+      padding-bottom: 6px;
+      margin: 0px;
+      color: #fff;
+      display: inline-block;
+    }
+
 }
 .portlet-content {
-
   margin-right: 0px;
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
   margin-left: 0px;
   width: 100%;
   position: relative;
@@ -165,19 +155,7 @@ header {
 .no-pd-top {
     padding-top: 0px !important;
 }
-.portlet-header-icon {
-    display: inline-block;
-    float: left;
-    padding-right: 5px;
-}
-.portlet-header-title {
-    font-size: 16px;
-    font-weight: bold;
-    padding-bottom: 6px;
-    margin: 0px;
-    color: #222;
-    display: inline-block;
-}
+
 .main-news {
     float: left;
     padding-right: 10px;
@@ -205,7 +183,6 @@ header {
           padding-right: 10px;
       }
     }
-
     .main-news-content{
       margin-top: 8px;
     }
@@ -213,19 +190,25 @@ header {
 .bold{
   font-weight: bold !important;
 }
-
+.hot-news-block{
+  padding-left: 5px;
+  padding-right: 5px;
+  // &:hover{
+  //   background-color: #1e62ca;
+  //   a{
+  //     color: #fff !important;
+  //   }
+  // }
+}
 .news-title {
     text-decoration: none;
-    color: #000000 !important;
+    color: #000;
     font: 400 13px arial;
     line-height: 18px;
     &:hover{
       text-decoration: none;
     }
 }
-
-
-
 .bullet-arrow{
   .icon-list {
       position: absolute;
@@ -241,7 +224,6 @@ header {
       }
   }
 }
-
 .default-news {
     width: 100%;
     /* padding-left: 25px; */
@@ -249,11 +231,9 @@ header {
     position: relative;
     /* padding-bottom: 10px; */
 }
-
 .document-file-icon {
     display: inline-block;
 }
-
 .document-file {
     overflow: hidden;
     display: block;
@@ -261,7 +241,6 @@ header {
     text-decoration: none !important;
     cursor: pointer;
 }
-
 .document-file-name {
     font-size: 13px;
     line-height: 20px;
@@ -270,14 +249,12 @@ header {
     margin-left: 7px;
     padding-top: 5px;
 }
-
 .icon-pdf {
     width: 25px;
     height: 31px;
     background: url(../../images/icon/icons.png) no-repeat -405px -7px;
     display: inline-block;
 }
-
 .default-news-content {
     border-bottom: 1px solid #e1e8ee;
     padding-bottom: 7px;
@@ -286,46 +263,34 @@ header {
     line-height: 18px;
     font-size: 0.9em;
 }
-
 .chi-dao-dieu-hanh{
   padding-bottom: 7px;
   display: block;
   overflow: hidden;
   line-height: 18px;
   font-size: 0.9em;
-
-
 }
-
 .news-item{
     padding-top: 6px;
 }
-
 .default-news{
     border-bottom: 0px;
 }
-
 .link-news-content {
     // margin-left: 15px;
     text-align: justify;
     font-size: 0.9em;
     /* padding-left: 10px; */
 }
-
 .mot-bai-viet{
   .main-news {
-
       width: 100%;
       display: block;
       overflow: hidden;
       border: 1px solid #e1e8ee;
       padding: 10px;
-
   }
-
 }
-
-
 .chi-tiet {
   h4 {
     border-bottom: 1px solid #e1e8ee;
@@ -336,10 +301,8 @@ header {
     margin-top: 0px;
   }
 }
-
 .theo-dong {
     padding: 4px;
-
     .su-kien{
       a{
         img{
@@ -353,24 +316,19 @@ header {
           text-decoration: none;
         }
       }
-
     }
 }
-
 .row-left{
   margin-left: -15px !important;
 }
-
 .row-right{
   float: right;
   margin-right: -15px !important;
 }
-
 .title-line-2 {
     height: 36px;
     overflow-y: hidden;
 }
-
 .icon-play-vid {
     background: url(../../images/icon/icon-play.png) no-repeat left top;
     width: 30px;
@@ -381,19 +339,20 @@ header {
     top: -68px;
     left: 66px;
     opacity: 0;
-
     &:hover{
       opacity: 1;
     }
 }
-
-img{
-  &:hover{
-    opacity: 0.9;
-  }
-}
-
-
+// img{
+//   -moz-transition: transform .2s;
+//   -webkit-transition: transform .2s;
+//   transition: transform .2s;
+//   &:hover{
+//     -moz-transform: scale(1.1);
+//     -webkit-transform: scale(1.1);
+//     transform: scale(1.1);
+//   }
+// }
 /* Link website */
 .liked-website {
 	padding-top: 10px;
@@ -403,7 +362,6 @@ img{
   	padding-top: 0px;
   }
 }
-
 .select-box {
 	background: #fbfbfb;
 	width: 100%;
@@ -413,26 +371,21 @@ img{
   option {
   	padding: 5px;
   	background: #fbfbfb;
-
   }
 }
-
 /* Css of main footer */
 .porlet-main-footer {
 	display: block;
 }
-
 .main-footer-header-wrapper {
 	width: 100%;
 	display: block;
 	text-align: center;
 	background: #1e62ca;
 }
-
 .main-footer-menu {
 	margin: 0px;
 }
-
 .main-footer-menu-item {
 	padding: 15px;
 	display: inline-block;
@@ -447,17 +400,14 @@ img{
     }
   }
 }
-
 .main-footer-footer-wrapper {
 	display: block;
 	background: url("../../images/shape.png");
 }
-
 .main-footer-footer-bg {
 	background: url("../../images/city.png") no-repeat bottom;
 	min-height: 150px;
 }
-
 .main-footer-logo {
 	float: left;
 	display: inline-block;
@@ -466,7 +416,6 @@ img{
   	height: 100px;
   }
 }
-
 .main-footer-footer-content {
 	display: table;
 	color: #fff;
@@ -481,15 +430,36 @@ img{
   }
 }
 
+ul.portlet-header-tab{
+  margin-bottom: 0px !important;
+}
+
+.portlet-header-tab{
+  border-bottom: 1px solid #e1e8ee;
+  li {
+      display: inline-block;
+      padding: 0 10px;
+      cursor: pointer;
+      &.active {
+          border-bottom: 2px solid #428bca;
+      }
+  }
+
+
+
+
+}
+
 .portlet-panel {
-  .dng-portlet-header {
+
+  .portlet-header {
       border: 1px solid #0a4298;
       background-color: #0a4298;
       border-radius: 5px 5px 0px 0px;
-      padding: 0px 10px;
+      padding: 3px 5px 1px 35px;
   }
 
-  .dng-portlet-content {
+  .portlet-content {
     padding-left: 15px;
     padding-right: 15px;
     border: 1px solid #e1e8ee;
@@ -500,12 +470,11 @@ img{
     position: relative;
     text-align: justify;
   }
-
-  .dng-portlet-header-title, .dng-portlet-header-icon {
+  .portlet-header-title, .portlet-header-icon {
       color: #ffffff;
       padding-top: 9px;
   }
-  .dng-portlet-header-title {
+  .portlet-header-title {
       padding-bottom: 8px;
       font-size: 16px;
       font-weight: bold;
@@ -514,8 +483,7 @@ img{
       // color: #222;
       display: inline-block;
   }
-
-  .dng-portlet-header-title-sm {
+  .portlet-header-title-sm {
       font-size: 14px;
       margin-top: 2px;
   }

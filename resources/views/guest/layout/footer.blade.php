@@ -3,25 +3,25 @@
         <div class="container">
             <ul class="main-footer-menu">
                 <li class="main-footer-menu-item">
-                    <a href="http://danang.gov.vn/chinh-quyen">Chính quyền</a>
+                    <a href="http://hatinh.gov.vn/chinh-quyen">Chính quyền</a>
                 </li>
                 <li class="main-footer-menu-item main-footer-menu-item-right">
-                    <a href="http://danang.gov.vn/cong-dan">Công dân</a>
+                    <a href="http://hatinh.gov.vn/cong-dan">Công dân</a>
                 </li>
                 <li class="main-footer-menu-item">
-                    <a href="http://danang.gov.vn/doanh-nghiep">Doanh nghiệp</a>
+                    <a href="http://hatinh.gov.vn/doanh-nghiep">Doanh nghiệp</a>
                 </li>
                 <li class="main-footer-menu-item main-footer-menu-item-right">
-                    <a target="_blank" href="http://tourism.danang.vn/en/">Du khách</a>
+                    <a target="_blank" href="http://dulichbien.hatinh.top/">Du khách</a>
                 </li>
                 <li class="main-footer-menu-item" style="margin-left:-3px">
-                    <a href="http://danang.gov.vn/lien-he-cong-tac">Liên hệ công tác</a>
+                    <a href="http://hatinh.gov.vn/lien-he-cong-tac">Liên hệ công tác</a>
                 </li>
                 <li class="main-footer-menu-item main-footer-menu-item-right">
-                    <a href="mailto:toasoan@danang.gov.vn">Góp ý</a>
+                    <a href="mailto:toasoan@hatinh.gov.vn">Góp ý</a>
                 </li>
                 <li class="main-footer-menu-item main-footer-menu-item-right" style="float:right;">
-                    <a href="http://danang.gov.vn/rss">
+                    <a href="http://hatinh.gov.vn/rss">
                         <i class="ht-icon-rss"></i> RSS
                     </a>
                 </li>
@@ -45,9 +45,6 @@
                         <br> Điện thoại: (+84.239) 3686586, Fax:(+84.239) 3850288
                         <br> Ghi rõ nguồn Cổng Thông tin điện tử tỉnh Hà Tĩnh hoặc <a style="color:#FFF" href="http://www.hatinh.gov.vn/">www.hatinh.gov.vn</a> khi bạn phát hành lại thông tin từ Website này.
                     </p>
-                    <a href="#" target="_blank" class="footer-link hidden-xs">
-                            Đăng nhập
-                               </a>
                 </div>
             </div>
         </div>

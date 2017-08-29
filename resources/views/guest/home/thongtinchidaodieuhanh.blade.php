@@ -1,12 +1,8 @@
 <div class="portlet">
     <div class="portlet-header">
         <a href="#" class="portlet-danh-muc-title">
-            <i class=" no-pd-top portlet-header-icon view11">
-    					<img style="padding-bottom: 6px;" onerror="this.style.display='none'" alt="" src="http://docs.ttdt.dsp.vn/images/image/icon/vbbh_1481868543510.png">
-    				</i>
             <h4 class="portlet-header-title no-pd-top">Thông tin chỉ đạo, điều hành</h4>
         </a>
-        <span class="underline"></span>
     </div>
     <div class="portlet-content">
       <ul class="list-news">
@@ -42,9 +38,6 @@
               </a>
           </div>
         </li>
-
-
-
       </ul>
     </div>
 </div>
