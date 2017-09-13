@@ -18,7 +18,9 @@
                   <div class="row">
 
                   @include('guest.home.tintuc-slider')
-                  <img src="http://docs.ttdt.dsp.vn/images/banner/hethongdichvucongtructuyen_1476955571482.png" width="100%" style="margin-bottom: 15px;">
+                  <a href="{{ route('admin')}}">
+                    <img src="http://docs.ttdt.dsp.vn/images/banner/hethongdichvucongtructuyen_1476955571482.png" width="100%" style="margin-bottom: 15px;">
+                  </a>
                   @include('guest.home.tintucsukien')
                   <img src="http://docs.ttdt.dsp.vn/images/banner/BannerAPEC2017_1498612201658.png" width="100%" style="margin-bottom: 15px;">
                     {{-- Theo dong su kien --}}

@@ -1,0 +1,9 @@
+{
+  "name": "webtinh",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "install": {
+  	"path": "public/assets/libs"
+  }
+}
